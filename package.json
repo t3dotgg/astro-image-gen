@@ -9,6 +9,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/vercel": "^0.1.2",
     "astro": "^1.0.0-beta.10"
   }
 }

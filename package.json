@@ -10,6 +10,8 @@
   },
   "devDependencies": {
     "@astrojs/vercel": "^0.1.2",
-    "astro": "^1.0.0-beta.10"
+    "astro": "^1.0.0-beta.10",
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^10.4.0"
   }
 }

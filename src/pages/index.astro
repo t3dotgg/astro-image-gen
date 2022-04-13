@@ -1,16 +1,6 @@
 ---
-// Style Imports
-import '../styles/global.css';
-import '../styles/home.css';
-
-// Component Script:
-// You can write any JavaScript/TypeScript that you'd like here.
-// It will run during the build, but never in the browser.
-// All variables are available to use in the HTML template below.
 let title = `My Astro Site - ${Math.floor(Math.random() * 100)}`;
 
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
 <html lang="en">
 <head>
@@ -31,9 +21,9 @@ let title = `My Astro Site - ${Math.floor(Math.random() * 100)}`;
 </head>
 <body>
 	<main>
-
-	<img src="/image.png" style="width: 100%;" />
-
+		<div class="bg-gray-800 w-screen h-screen flex items-center justify-center overflow-scroll">
+			<img src="/image.png" class="w-[50%] px-12 py-12" />
+		</div>
 	</main>
 </body>
 </html>

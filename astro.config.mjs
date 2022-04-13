@@ -6,5 +6,10 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   adapter: vercel(),
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  vite: {
+    ssr: {
+      external: ["chrome-aws-lambda", "puppeteer-core"],
+    },
+  },
 });
